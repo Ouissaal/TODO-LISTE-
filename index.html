@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/p3.png">
+  
+</head>
+
+<body>
+
+    <div class="container">
+<h1> Your <span>U</span>ltimate <span>Todo liste </span>For Productivity</h1>
+        <div class="todo-app">
+<h2>Todo List <img src="./images/icon.png"></h2>
+            <div class="row" id="addDiv">
+                <input type="text" id="input-box" placeholder="Add your text" autocomplete="off">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <div class="row" id="updateDiv" style="display: none;">
+                <input type="text" id="input-box1" placeholder="Update your text" autocomplete="off">
+                <button onclick="updateTask()">Update</button>
+            </div>
+            <span id="alert-text"></span>
+            <ul id="list-container">
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/0a07bf1ecb.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
